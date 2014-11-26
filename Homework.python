@@ -1,0 +1,23 @@
+#!
+first = "Victoria"
+last = "Kariolic"
+age = 40
+print first, last, age
+
+sideA = 12.55
+sideB = 17.85
+
+import math
+sideC =(sideA * sideA) + (sideB * sideB);
+
+print math.sqrt(sideC)
+
+operand1 = 95
+operand2 = 64.55
+print operand1, "+", operand2, "=", operand1+operand2
+print operand1, "-", operand2, "=", operand1-operand2
+print operand1, "*", operand2, "=", operand1*operand2
+print operand1, "/", operand2, "=", operand1/operand2
+print operand1, "%", operand2, "=", operand1%operand2
+
+# using just the variables allows us to change the variables dynamically, but the layout remains the same
